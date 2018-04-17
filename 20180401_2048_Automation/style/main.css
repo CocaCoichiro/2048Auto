@@ -151,7 +151,6 @@ hr {
   touch-action: none;
   background: #bbada0;
   border-radius: 6px;
-  width: 500px;
   height: 500px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -220,7 +219,8 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(238, 228, 218, 0.35); 
+  font-size: 300%}
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -525,10 +525,13 @@ hr {
   text-decoration: none;
   color: #f9f6f2;
   height: 40px;
+  width: 120px;
   line-height: 42px;
   display: block;
   text-align: center;
-  float: right; }
+  float: right; 
+  margin: 2px 0px 2px 0px;
+}
 
 .auto-button{
   display: inline-block;
@@ -538,11 +541,46 @@ hr {
   text-decoration: none;
   color: #f9f6f2;
   height: 40px;
+  width: 120px;
   line-height: 42px;
   display: block;
   text-align: center;
   float: right; 
+  margin: 2px 0px 2px 0px;
 }
+
+.stop-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  width: 120px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: right; 
+  margin: 2px 0px 2px 0px;
+ }
+
+.multiply-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  width: 120px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: right; 
+  margin: 2px 0px 2px 0px;
+ }
+
 
 .game-explanation {
   margin-top: 50px; }
